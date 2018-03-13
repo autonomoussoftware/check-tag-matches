@@ -1,0 +1,52 @@
+{
+  "name": "check-tag-matches",
+  "version": "1.0.0",
+  "description": "Checks if the package.json version matches current tag",
+  "keywords": [
+    "git",
+    "tag",
+    "match",
+    "pacakge",
+    "version"
+  ],
+  "license": "MIT",
+  "author": "Gabriel Montes <gabriel@bloq.com>",
+  "files": [
+    "bin/*",
+    "src/*"
+  ],
+  "main": "src/index.js",
+  "bin": {
+    "tag-matches": "bin/tag-matches.js"
+  },
+  "repository": "autonomoussoftware/check-tag-matches",
+  "scripts": {
+    "lint": "eslint --cache .",
+    "precommit": "npm run lint",
+    "test": "mocha",
+    "coverage": "nyc --lines 95 --functions 95 --branches 95 --reporter=lcov --reporter=text npm test",
+    "check": "npm-check -p -i eslint*",
+    "prepush": "npm run check && npm run coverage",
+    "prepublishOnly": "npm run precommit && npm run prepush && bin/tag-matches.js"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^4.1.0",
+    "eslint-config-bloq": "^1.0.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsdoc": "^3.5.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "mocha": "^5.0.1",
+    "npm-check": "^5.5.2",
+    "nyc": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "preferGlobal": true,
+  "private": false
+}
