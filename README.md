@@ -1,5 +1,10 @@
 # check-tag-matches
 
+[![Build Status](https://travis-ci.com/autonomoussoftware/check-tag-matches.svg?branch=master)](https://travis-ci.com/autonomoussoftware/check-tag-matches)
+[![bitHound Overall Score](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/score.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
+[![bitHound Dependencies](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/dependencies.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/code.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
+
 Checks if the `package.json` version matches current tag.
 
 The objective of this package and tool is to be used before publishing an NPM package and verify:
