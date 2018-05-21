@@ -1,7 +1,7 @@
 # check-tag-matches
 
 [![Build Status](https://travis-ci.org/autonomoussoftware/check-tag-matches.svg?branch=master)](https://travis-ci.org/autonomoussoftware/check-tag-matches)
-[![Code Style](https://img.shields.io/badge/code%20style-bloq-ff69b4.svg)](https://github.com/bloq/eslint-config-bloq)
+[![Code Style](https://img.shields.io/badge/code%20style-bloq-0063a6.svg)](https://github.com/bloq/eslint-config-bloq)
 
 
 Checks if the `package.json` version matches current tag.
