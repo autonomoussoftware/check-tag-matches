@@ -1,5 +1,9 @@
 # check-tag-matches
 
+[![Build Status](https://travis-ci.org/autonomoussoftware/check-tag-matches.svg?branch=master)](https://travis-ci.org/autonomoussoftware/check-tag-matches)
+[![Code Style](https://img.shields.io/badge/code%20style-bloq-ff69b4.svg)](https://github.com/bloq/eslint-config-bloq)
+
+
 Checks if the `package.json` version matches current tag.
 
 The objective of this package and tool is to be used before publishing an NPM package and verify:
@@ -28,4 +32,4 @@ Update the `package.json` scripts to use the check on `prepublishOnly`:
 
 ## License
 
-MIT
+[MIT Lincese](https://github.com/autonomoussoftware/check-tag-matches/blob/master/LICENSE)
