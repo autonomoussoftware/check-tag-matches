@@ -43,7 +43,7 @@ describe('Check tag matches factory', function () {
     const workingDir = __dirname
     const checkTagMatches = checkTagMatchesFactory({
       getGitHeadTags: () => [],
-      getPackageVersion: function (cwd) {
+      getPackageVersion (cwd) {
         cwd.should.equals(workingDir)
         done()
       }
