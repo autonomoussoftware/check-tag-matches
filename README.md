@@ -1,6 +1,8 @@
 # check-tag-matches
 
 [![Build Status](https://travis-ci.org/autonomoussoftware/check-tag-matches.svg?branch=master)](https://travis-ci.org/autonomoussoftware/check-tag-matches)
+[![bitHound Overall Score](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/score.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
+[![bitHound Code](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/code.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
 [![Code Style](https://img.shields.io/badge/code%20style-bloq-0063a6.svg)](https://github.com/bloq/eslint-config-bloq)
 [![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/check-tag-matches:package.json/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/check-tag-matches:package.json?targetFile=package.json)
 
