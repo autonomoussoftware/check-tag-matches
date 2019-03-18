@@ -4,7 +4,7 @@
 [![bitHound Overall Score](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/score.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
 [![bitHound Code](https://www.bithound.io/github/autonomoussoftware/check-tag-matches/badges/code.svg)](https://www.bithound.io/github/autonomoussoftware/check-tag-matches)
 [![Code Style](https://img.shields.io/badge/code%20style-bloq-0063a6.svg)](https://github.com/bloq/eslint-config-bloq)
-[![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/check-tag-matches/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/check-tag-matches)
+[![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/check-tag-matches/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/check-tag-matches) [![Greenkeeper badge](https://badges.greenkeeper.io/autonomoussoftware/check-tag-matches.svg)](https://greenkeeper.io/)
 
 Checks if the `package.json` version matches current tag.
 
