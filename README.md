@@ -34,4 +34,4 @@ Update the `package.json` scripts to use the check on `prepublishOnly`:
 
 ## License
 
-[MIT Lincese](https://github.com/autonomoussoftware/check-tag-matches/blob/master/LICENSE)
+[MIT License](https://github.com/autonomoussoftware/check-tag-matches/blob/master/LICENSE)
